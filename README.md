@@ -45,6 +45,8 @@ To get started with the project, follow these steps:
 The ML model used in this app is containerized using Docker and hosted on Docker Hub. You can find the Docker project repository on the following link:
 
 [GitHub - ML Flask Hugging Face](https://github.com/Nitinkr18/ML-Flask-Hugging_Face.git)
+[Docker Link](https://hub.docker.com/repository/docker/nitinkr18/ml-cat-dog-classifier-flask-1/general)
+
 
 To pull the Docker image, use the following command:
 
@@ -54,10 +56,10 @@ docker pull nitinkr18/ml-cat-dog-classifier-flask-1:latest
 
 ## Usage
 
-To use the app, simply navigate to the following link on your device's browser:
-
-[Cat Dog Classifier Flutter App](https://cat-dog-classifier-using-flask-xisi3zlsna-el.a.run.app/upload)
-
+GCP hosted Link
+```bash
+https://cat-dog-classifier-using-flask-xisi3zlsna-el.a.run.app/upload
+```
 Alternatively, you can run the Flutter app locally as described in the "Getting Started" section.
 
 ## Contributing
