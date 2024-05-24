@@ -1,6 +1,8 @@
-# ML Cat Dog Classifier Flutter App
+# Cat Dog Classifier Flutter App
 
-This repository contains the source code for a Flutter mobile application that utilizes a machine learning model deployed using Flask and Hugging Face's transformers library to classify images as either cats or dogs. The ML model is containerized using Docker and hosted on Docker Hub.
+This repository contains the source code for a Flutter mobile application that utilizes a machine learning model deployed on Google Cloud Platform (GCP) to classify images as either cats or dogs. The ML model is accessed through the following GCP endpoint:
+
+[Cat Dog Classifier ML Model on GCP](https://cat-dog-classifier-using-flask-xisi3zlsna-el.a.run.app/upload)
 
 ## Features
 
@@ -38,11 +40,11 @@ To get started with the project, follow these steps:
    flutter run
    ```
 
-## Docker Image
+## Docker Hub
 
-The ML model used in this app is containerized using Docker and hosted on Docker Hub. You can pull the Docker image from the following link:
+The ML model used in this app is containerized using Docker and hosted on Docker Hub. You can find the Docker project repository on the following link:
 
-[Docker Hub - ML Cat Dog Classifier Flask](https://hub.docker.com/repository/docker/nitinkr18/ml-cat-dog-classifier-flask-1)
+[GitHub - ML Flask Hugging Face](https://github.com/Nitinkr18/ML-Flask-Hugging_Face.git)
 
 To pull the Docker image, use the following command:
 
@@ -52,13 +54,11 @@ docker pull nitinkr18/ml-cat-dog-classifier-flask-1:latest
 
 ## Usage
 
-To run the Docker container locally, execute the following command:
+To use the app, simply navigate to the following link on your device's browser:
 
-```bash
-docker run -p 5000:5000 nitinkr18/ml-cat-dog-classifier-flask-1:latest
-```
+[Cat Dog Classifier Flutter App](https://cat-dog-classifier-using-flask-xisi3zlsna-el.a.run.app/upload)
 
-Once the container is running, the ML model will be accessible at `http://localhost:5000`.
+Alternatively, you can run the Flutter app locally as described in the "Getting Started" section.
 
 ## Contributing
 
@@ -70,4 +70,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-Special thanks to the [Hugging Face](https://huggingface.co/) team for their excellent transformers library and to the Flask community for the Flask framework.
+Special thanks to the Google Cloud Platform team for providing the infrastructure for hosting the ML model and to the Flask community for the Flask framework.
