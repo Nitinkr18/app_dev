@@ -71,3 +71,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 Special thanks to the Google Cloud Platform team for providing the infrastructure for hosting the ML model and to the Flask community for the Flask framework.
+
+
+
+## Demo Video
+
+https://github.com/Nitinkr18/app_dev/assets/111683813/381f3481-625e-406b-99d8-d50de414d0f5
+
+
